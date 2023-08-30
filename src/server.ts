@@ -26,9 +26,25 @@ import bodyParser from 'body-parser';
 
     // Root URI call
     app.get('/', async (req, res) => {
-        const payload = req.body;
-        const response = await searchOrders(payload);
-        res.send(response);
+        //const payload = req.body;
+
+        //Sample payload from endpoint. None is compulsory, all optional
+        // payload format {
+        //     orderNumber?: number;
+        //     startDate?: Date;
+        //     endDate?: Date;
+        //     status?: string;
+        // }
+        //Payload example
+        // const payload = {
+        //     orderNumber: ParseInt(req.body.orderNumber),
+        //     startDate: new Date(req.body.startDate),
+        //     endDate: new Date(req.body.startDate),
+        //     status: "Shipped",
+        // }
+
+        //const response = await searchOrders(payload);
+        //res.send(response);
     });
 
 
