@@ -13,7 +13,7 @@ import bodyParser from 'body-parser';
 
     // Root URI call
     app.get('/', async (req, res) => {
-        res.send({ message: "hello v1" });
+        res.send({ message: "hello v2" });
     });
 
 
