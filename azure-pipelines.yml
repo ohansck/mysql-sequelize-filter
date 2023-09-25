@@ -23,8 +23,8 @@ stages:
 - stage: Build
   displayName: Build and push stage
   jobs:
-  - job: Build
-    displayName: Build
+  - job: BuildAndPush
+    displayName: Build And Push
     pool:
       name: aws-agent
       demands:
