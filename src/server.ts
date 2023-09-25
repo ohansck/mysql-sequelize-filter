@@ -3,7 +3,6 @@ import 'dotenv/config'
 import express from 'express';
 import bodyParser from 'body-parser';
 
-
 (async () => {
 
     const app = express();
@@ -13,7 +12,7 @@ import bodyParser from 'body-parser';
 
     // Root URI call
     app.get('/', async (req, res) => {
-        res.send({ message: "hello v2" });
+        res.send({ message: "hello v3" });
     });
 
 
